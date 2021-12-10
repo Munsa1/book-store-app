@@ -1,7 +1,7 @@
 import React from 'react';
 import { useSelector } from 'react-redux';
 import AddNewBook from './AddNewBook';
-//eslint-disable-next-line
+// eslint-disable-next-line
 import Books from './books';
 
 const BooksPage = () => {
