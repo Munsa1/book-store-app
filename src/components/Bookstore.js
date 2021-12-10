@@ -9,8 +9,8 @@ const Bookstore = () => (
   <>
     <Navbar />
     <Routes>
-    <Route exact path="/" element={<BooksPage />} />
-    <Route path="/categories" element={<CategoryPage />} />
+      <Route exact path="/" element={<BooksPage />} />
+      <Route path="/categories" element={<CategoryPage />} />
     </Routes>
   </>
 );
