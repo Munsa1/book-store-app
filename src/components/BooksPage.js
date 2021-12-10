@@ -6,9 +6,9 @@ import Books from './Books';
 const BooksPage = () => {
   const bookList = [
     {
-      booktitle: ' The Great Gatsby',
-      author: ' F. Scott Fitzgerald',
-      category: ' Fiction',
+      booktitle: ' 16 Laws of Success',
+      author: ' Napoleon Hill',
+      category: ' Motivational',
       id: uuidv4(),
     },
   ];
