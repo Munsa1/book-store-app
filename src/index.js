@@ -8,9 +8,9 @@ import Bookstore from './components/Bookstore';
 ReactDOM.render(
   <React.StrictMode>
     <Router>
-    <Provider store={store}>
-    <Bookstore />
-  </Provider>
+      <Provider store={store}>
+        <Bookstore />
+      </Provider>
     </Router>
   </React.StrictMode>,
   document.getElementById('root'),

@@ -1,11 +1,10 @@
 import React from 'react';
 import { useSelector } from 'react-redux';
 import AddNewBook from './AddNewBook';
-import Books from './Books';
+import Books from './books';
 
 const BooksPage = () => {
   const bookList = useSelector((state) => state.booksReducer);
-  
   return (
     <div className="books">
       <Books bookList={bookList} />

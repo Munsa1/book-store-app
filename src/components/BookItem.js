@@ -1,20 +1,20 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { useDispatch } from 'react-redux';
-import { removeBook } from '../redux/Books/books';
+import { removeBook } from '../redux/books/books';
 
 const BookItem = ({ book }) => {
   const {
     booktitle, id, category,
   } = book;
-
   const dispatch = useDispatch();
 
   return (
     <li key={id}>
       <p>
-      {' '}
-      { booktitle }
+        Book:
+        {' '}
+        { booktitle }
       </p>
       <p>
         Category:
