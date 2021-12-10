@@ -1,8 +1,6 @@
-/* eslint-disable consistent-return */
 import React, { useState } from 'react';
 import { v4 as uuidv4 } from 'uuid';
 import { useDispatch } from 'react-redux';
-// import your Action Creators
 import { addBook } from '../redux/Books/books';
 
 const AddNewBook = () => {
