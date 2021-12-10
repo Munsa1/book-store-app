@@ -3,6 +3,7 @@ import { Route, Routes } from 'react-router-dom';
 import BooksPage from './BooksPage';
 import CategoryPage from './CategoryPage';
 import Navbar from './Navbar';
+import '../index.css';
 
 const Bookstore = () => (
   <>
