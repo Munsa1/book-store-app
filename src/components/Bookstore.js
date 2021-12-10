@@ -1,15 +1,15 @@
 import React from 'react';
 import { Route, Routes } from 'react-router-dom';
-import Books from '../redux/Books/Books';
-import Categories from '../redux/Categories/Categories';
+import BooksPage from './BooksPage';
+import CategoryPage from './CategoryPage';
 import Navbar from './Navbar';
 
 const Bookstore = () => (
   <>
     <Navbar />
     <Routes>
-      <Route exact path="/" element={<Books />} />
-      <Route path="/categories" element={<Categories />} />
+    <Route exact path="/" element={<BooksPage />} />
+    <Route path="/categories" element={<CategoryPage />} />
     </Routes>
   </>
 );
