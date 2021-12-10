@@ -17,10 +17,11 @@ const AddNewBook = () => {
     const id = uuidv4();
     const { title, category } = inputValues;
     const newBook = {
-      title,
       id,
+      title,
       category,
     };
+
     if (newBook.title.trim().length === 0) {
       setError('Please add Book title to submit...');
       setInputValues(newBook);
