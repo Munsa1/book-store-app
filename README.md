@@ -1,4 +1,4 @@
-# Book-Store-App
+# Book-Store-Application
 
 > React based single page app.  
 
