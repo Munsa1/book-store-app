@@ -1,6 +1,5 @@
 import React, { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-// eslint-disable-next-line
 import { getBooksList } from '../redux/Books/books';
 import BookItem from './BookItem';
 
