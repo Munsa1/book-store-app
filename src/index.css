@@ -10,7 +10,7 @@ body {
   font-family: 'Montserrat', 'Times New Roman', Times, serif;
 }
 
-d_flex {
+.d_flex {
   display: flex;
 }
 
