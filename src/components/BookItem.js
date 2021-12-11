@@ -1,6 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { useDispatch } from 'react-redux';
+// eslint-disable-next-line
 import { deleteBook } from '../redux/Books/books';
 
 const BookItem = ({ book }) => {
