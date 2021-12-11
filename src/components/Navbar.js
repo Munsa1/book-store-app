@@ -17,10 +17,10 @@ const Navbar = () => (
           cursor: 'pointer',
           transition: 'all ease-in 300ms',
         }}
-      />
-    </span>
-  </nav>
-</div>
+        />
+      </span>
+    </nav>
+  </div>
 );
 
 export default Navbar;
