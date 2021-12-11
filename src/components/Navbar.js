@@ -4,19 +4,19 @@ import { FaUserAlt } from 'react-icons/fa';
 
 const Navbar = () => (
   <div className="navigation_container">
-  <nav className="navigation">
-    <ul>
-      <li><h1><Link to="/">Bookstore CMS</Link></h1></li>
-      <li><Link to="/">BOOKS</Link></li>
-      <li><Link to="/categories">CATEGORIES</Link></li>
-    </ul>
-    <span className="user-profile-wrapper">
-      <FaUserAlt style={{
-        color: '#0290ff',
-        height: '15px',
-        cursor: 'pointer',
-        transition: 'all ease-in 300ms',
-      }}
+    <nav className="navigation">
+      <ul>
+        <li><h1><Link to="/">Bookstore CMS</Link></h1></li>
+        <li><Link to="/">BOOKS</Link></li>
+        <li><Link to="/categories">CATEGORIES</Link></li>
+      </ul>
+      <span className="user-profile-wrapper">
+        <FaUserAlt style={{
+          color: '#0290ff',
+          height: '15px',
+          cursor: 'pointer',
+          transition: 'all ease-in 300ms',
+        }}
       />
     </span>
   </nav>
